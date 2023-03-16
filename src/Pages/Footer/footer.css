@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+}
+
+
+.footer_section{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    padding: 100px 0;
+    margin-top: 200px;
+}
+
+.copyright{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.textP{
+    margin-top: 12px;
+}
+.head{
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+
+.links{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.link1{
+    margin-top: 10px;
+}

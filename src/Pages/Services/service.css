@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+  color: #7d7987;
+}
+
+/* .blop{
+  background: linear-gradient(175.68deg, #F3F7FF -10.48%, #DEEEFE 92.66%);
+
+} */
+
+@media screen and (max-width: 900px) {
+  br {
+    display: none;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .servPosition {
+    text-align: center;
+  }
+
+  .card1 {
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px hsla(0, 0%, 75%, 0.2),
+      0px -4px 8px 0px hsla(0, 0%, 75%, 0.2);
+    padding: 16px;
+    border-radius: 12px;
+    margin-top: 32px;
+    max-height: 1000px;
+  }
+
+  .maxHeight {
+    max-height: 100vh;
+  }
+
+  .serviceImg,
+  .sm_Query {
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1920px) {
+  .card1 {
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px hsla(0, 0%, 75%, 0.2),
+      0px -4px 8px 0px hsla(0, 0%, 75%, 0.2);
+    padding: 16px;
+    border-radius: 12px;
+    margin-top: 16px;
+    max-height: 1000px;
+  }
+}
+
+@media screen and(min-width: 2000px){
+  .product-details-main {
+    width: 100%;
+    overflow: hidden;
+    min-height: 600px;
+    padding: 0 0 0 1%;
+    position: absolute;
+    right: 140px;
+  }
+}
+
+.marginTop {
+  margin-top: 120px;
+}
+
+.para {
+  font-size: 17px;
+}
+
+.lineImage {
+  width: 6% !important;
+}
+
+.lineImage2 {
+  width: 10% !important;
+}
+
+.sm-query1 {
+  margin-top: 100px;
+}
+
+.sm-query2 {
+  margin-top: 32px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.service-btn {
+  outline: none;
+  box-shadow: none;
+  background-color: #fff;
+  border-color: #458ff6;
+  border: 2;
+  color: #458ff6;
+  padding: 10px 50px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.service-btn:hover {
+  background: #458ff6;
+  color: #fff;
+  transition: all 1s;
+}
+
+.card1 {
+  background-color: #fff;
+  box-shadow: 0px 4px 4px 0px hsla(0, 0%, 75%, 0.2),
+    0px -4px 8px 0px hsla(0, 0%, 75%, 0.2);
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.serviceImg {
+  width: 90%;
+}
+
+.servPosition {
+  margin-top: 120px;
+}
+
+.sm_Query {
+  margin: 6% auto;
+}
+
+.cardArticle {
+  background-color: #fff;
+
+  border-radius: 12px;
+}
+
+.articleImge {
+  width: 100%;
+}
+
+.articlePadding {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  box-shadow: 10px 40px 50px 0px hsla(223, 47%, 93%, 0.4);
+  border-radius: 25px;
+}
+
+.btnReadMore {
+  outline: none;
+  color: #458ff6;
+  background-color: transparent;
+  border: 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  padding: 0;
+}
