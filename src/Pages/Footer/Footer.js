@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-sm-12 col-lg-6 col-xl-6">
               <div>
-                <img src={LogoWhite} />
+                <img alt="line" src={LogoWhite} />
               </div>
 
               <p className="copyright textP">

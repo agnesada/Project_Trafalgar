@@ -20,7 +20,7 @@ const Service = () => {
       <div className="container marginTop product-details-main ">
         <div className="ServiceHeader text-center">
           <h2>Our Services</h2>
-          <img className="lineImage mt-2" src={Line}></img>
+          <img alt="line" className="lineImage mt-2" src={Line}></img>
           <p className="mt-3">
             We provide to you the best choices for you. Adjust it to your health
             needs and make sure your undergo treatment <br />
@@ -33,7 +33,7 @@ const Service = () => {
           <div className="row sm-query1">
             <div className="col-sm-12 col-lg-4 col-xl-4 maxHeight">
               <div className="card1">
-                <img className="icon1 mt-3" src={Serviceicon1} />
+                <img alt="icon"  className="icon1 mt-3" src={Serviceicon1} />
                 <h3 className="mt-4">Search doctor</h3>
                 <p className="para">
                   Choose your doctor from thousands <br />
@@ -45,7 +45,7 @@ const Service = () => {
 
             <div className="col-sm-12 col-lg-4 col-xl-4 maxHeight">
               <div className="card1">
-                <img className="icon2 mt-3" src={Serviceicon2} />
+                <img alt="icon"  className="icon2 mt-3" src={Serviceicon2} />
                 <h3 className="mt-4">Online pharmacy</h3>
                 <p className="para">
                   Buy your medicines with our
@@ -58,7 +58,7 @@ const Service = () => {
 
             <div className="col-sm-12 col-lg-4 col-xl-4 maxHeight">
               <div className="card1">
-                <img className="icon3 mt-3" src={Serviceicon3} />
+                <img alt="icon" className="icon3 mt-3" src={Serviceicon3} />
                 <h3 className="mt-4">Consultation</h3>
                 <p className="para">
                   Free consultation with our trusted <br />
@@ -72,7 +72,7 @@ const Service = () => {
           <div className="row sm-query2">
             <div className="col-sm-12 col-lg-4 col-xl-4 maxHeight">
               <div className="card1">
-                <img className="icon4 mt-3" src={Serviceicon4} />
+                <img alt="icon" className="icon4 mt-3" src={Serviceicon4} />
                 <h3 className="mt-4">Details info</h3>
                 <p className="para">
                   Free consultation with our trusted <br />
@@ -84,7 +84,7 @@ const Service = () => {
 
             <div className="col-sm-12 col-lg-4 col-xl-4 maxHeight">
               <div className="card1">
-                <img className="icon5 mt-3" src={Serviceicon5} />
+                <img alt="icon" className="icon5 mt-3" src={Serviceicon5} />
                 <h3 className="mt-4">Emergency care</h3>
                 <p className="para">
                   You can get 24/7 urgent care for <br />
@@ -96,7 +96,7 @@ const Service = () => {
 
             <div className="col-sm-12 col-lg-4 col-xl-4 maxHeight">
               <div className="card1">
-                <img className="icon6 mt-3" src={Serviceicon6} />
+                <img alt="icon" className="icon6 mt-3" src={Serviceicon6} />
                 <h3 className="mt-4">Tracking</h3>
                 <p className="para">
                   Track and save your medical history
@@ -116,12 +116,12 @@ const Service = () => {
       <div className="container servPosition">
         <div className="row">
           <div className="col-sm-12 col-lg-6 col-xl-6 ">
-            <img className="serviceImg" src={serviceSectionImg} />
+            <img alt="icon" className="serviceImg" src={serviceSectionImg} />
           </div>
 
           <div className="col-sm-12 col-lg-6 col-xl-6 sm_Query">
             <h2>Leading healthcare providers</h2>
-            <img className="lineImage2 " src={Line}></img>
+            <img alt="icon" className="lineImage2 " src={Line}></img>
             <p className="para mt-3">
               Trafalgar provides progressive, and affordable <br />
               healthcare, accessible on mobile and online for <br />
@@ -142,7 +142,7 @@ const Service = () => {
             <h2>
               Download our <br /> mobile apps
             </h2>
-            <img className="lineImage2 " src={Line}></img>
+            <img alt="line"  className="lineImage2 " src={Line}></img>
             <p className="para mt-3">
               Our dedicated patient engagement app and <br />
               web portal allow you to access information <br />
@@ -156,7 +156,7 @@ const Service = () => {
           </div>
 
           <div className="col-sm-12 col-lg-6 col-xl-6 ">
-            <img className="serviceImg" src={serviceSectionImg} />
+            <img alt="i"  className="serviceImg" src={serviceSectionImg} />
           </div>
         </div>
       </div>
@@ -195,7 +195,7 @@ const Service = () => {
       <div className="container mt-5">
         <div className="ServiceHeader text-center">
           <h2>Check out our latest article</h2>
-          <img className="lineImage mt-2" src={Line}></img>
+          <img alt="i"className="lineImage mt-2" src={Line}></img>
         </div>
 
         <div className="section blop">
@@ -203,7 +203,7 @@ const Service = () => {
             <div className="row sm-query1 ">
               <div className="col-sm-12 col-lg-4 col-xl-4 ">
                 <div className="cardArticle">
-                  <img className=" articleImge" src={CardImg1} />
+                  <img alt="i"className=" articleImge" src={CardImg1} />
                 </div>
                 <div>
                   <div className="articlePadding">
@@ -221,7 +221,7 @@ const Service = () => {
 
               <div className="col-sm-12 col-lg-4 col-xl-4">
                 <div className="cardArticle">
-                  <img className=" articleImge" src={CardImg2} />
+                  <img alt="i"className=" articleImge" src={CardImg2} />
                 </div>
                 <div className="articlePadding">
                   <h3 className="mt-4">
@@ -238,7 +238,7 @@ const Service = () => {
 
               <div className="col-sm-12 col-lg-4 col-xl-4">
                 <div className="cardArticle">
-                  <img className=" articleImge" src={CardImg3} />
+                  <img alt="i"className=" articleImge" src={CardImg3} />
                 </div>
                 <div className="articlePadding">
                   <h3 className="mt-4">
