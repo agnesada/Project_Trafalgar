@@ -18,6 +18,33 @@ p {
 
 } */
 
+.cardCaro{
+  text-align: center;
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  border-radius: 24px;
+  padding: 32px 100px;
+  color: #fff;
+  max-width: 68%;
+}
+
+
+.caro_para{
+  color: #fff;
+  text-align: left;
+  font-size: 15px;
+  
+}
+
+h3{
+  text-align: left ;
+}
+
+.container{
+  max-width: auto;
+}
+
+
+
 @media screen and (max-width: 900px) {
   br {
     display: none;
@@ -49,6 +76,17 @@ p {
   .sm_Query {
     margin-top: 80px;
   }
+
+  .cardCaro{
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .caro_para, h3{
+    text-align: center;
+  }
+  
+  
 }
 
 @media only screen and (min-width: 1080px) and (max-width: 1920px) {
@@ -61,7 +99,13 @@ p {
     margin-top: 16px;
     max-height: 1000px;
   }
+
+  .container{
+    max-width: 70%;
+  }
 }
+
+
 
 @media screen and(min-width: 2000px){
   .product-details-main {
@@ -71,6 +115,10 @@ p {
     padding: 0 0 0 1%;
     position: absolute;
     right: 140px;
+  }
+
+  .container{
+    max-width: 80%;
   }
 }
 

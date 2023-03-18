@@ -11,6 +11,8 @@ import serviceSectionImg from "../../assets/trafalgar-illustration sec02 1.png";
 import CardImg1 from "../../assets/CardImage1.svg";
 import CardImg2 from "../../assets/CardImage2.svg";
 import CardImg3 from "../../assets/CardImage3.svg";
+import whiteLine from "../../assets/whiteline.png";
+import TestiminyImg from "../../assets/testi-img.svg";
 
 const Service = () => {
   return (
@@ -159,6 +161,37 @@ const Service = () => {
         </div>
       </div>
 
+      <div className="container cardCaro mt-5">
+        <h2 className="">What our customer are saying</h2>
+        <img className="lineImage" src={whiteLine} alt="Client image" />
+        <div className="row mt-5">
+          <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div className="row">
+              <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <img
+                  className="Testi--image"
+                  src={TestiminyImg}
+                  alt="product image"
+                />
+              </div>
+
+              <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 c mt-4">
+                <h3>Edward Newgate</h3>
+                <p className="caro_para">Founder Circle</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <p className="caro_para">
+              “Our dedicated patient engagement app and <br/> web portal allow you to
+              access information <br/>instantaneously (no tedeous form, long calls,<br/>
+              or administrative hassle) and securely”
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="container mt-5">
         <div className="ServiceHeader text-center">
           <h2>Check out our latest article</h2>
@@ -174,15 +207,15 @@ const Service = () => {
                 </div>
                 <div>
                   <div className="articlePadding">
-                  <h3 className="mt-4">
-                    Disease detection, check <br/> up in the laboratory
-                  </h3>
-                  <p className="para">
-                    In this case, the role of the health laboratory is very
-                    important to do a disease detection...
-                  </p>
-                  <button className="btnReadMore">Read more</button>
-                </div>
+                    <h3 className="mt-4">
+                      Disease detection, check <br /> up in the laboratory
+                    </h3>
+                    <p className="para">
+                      In this case, the role of the health laboratory is very
+                      important to do a disease detection...
+                    </p>
+                    <button className="btnReadMore">Read more</button>
+                  </div>
                 </div>
               </div>
 
