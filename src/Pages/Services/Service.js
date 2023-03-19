@@ -163,7 +163,7 @@ const Service = () => {
 
       <div className="container cardCaro mt-5">
         <h2 className="">What our customer are saying</h2>
-        <img className="lineImage" src={whiteLine} alt="Client image" />
+        <img className="lineImage" src={whiteLine} alt="Client" />
         <div className="row mt-5">
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
             <div className="row">
@@ -171,7 +171,7 @@ const Service = () => {
                 <img
                   className="Testi--image"
                   src={TestiminyImg}
-                  alt="product image"
+                  alt="product"
                 />
               </div>
 

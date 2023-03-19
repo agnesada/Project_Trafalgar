@@ -8,7 +8,7 @@ const Nav = () => {
     <div>
       <div className="container mt-3">
         <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/index">
             <img alt="i"src={Logo} />
           </a>
           <button
@@ -26,27 +26,27 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active mr-3">
-                <a className="nav-link activeLink" href="#">
+                <a className="nav-link activeLink" href="/home">
                   Home <span className="sr-only">(current)</span>
                 </a>
               </li>
               <li className="nav-item mr-3">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/find a doctor">
                   Find a doctor
                 </a>
               </li>
               <li className="nav-item mr-3">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/app">
                   Apps
                 </a>
               </li>
               <li className="nav-item mr-3">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/testimonials">
                   Testimonials
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="about us">
                   About Us
                 </a>
               </li>
