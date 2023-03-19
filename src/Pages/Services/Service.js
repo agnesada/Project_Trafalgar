@@ -17,13 +17,13 @@ import TestiminyImg from "../../assets/testi-img.svg";
 const Service = () => {
   return (
     <div>
-      <div className="container marginTop product-details-main ">
+      <div className="container marginTop product-details-main  maxwidth">
         <div className="ServiceHeader text-center">
           <h2>Our Services</h2>
           <img alt="line" className="lineImage mt-2" src={Line}></img>
           <p className="mt-3">
             We provide to you the best choices for you. Adjust it to your health
-            needs and make sure your undergo treatment <br />
+            needs and make sure your undergo treatment <br/>
             with our highly qualified doctors you can consult with us which type
             of service is suitable for your health
           </p>
@@ -31,7 +31,7 @@ const Service = () => {
 
         <div>
           <div className="row sm-query1">
-            <div className="col-sm-12 col-lg-4 col-xl-4 maxHeight">
+            <div className="col-sm-12 col-lg-4 col-xl-4">
               <div className="card1">
                 <img alt="icon"  className="icon1 mt-3" src={Serviceicon1} />
                 <h3 className="mt-4">Search doctor</h3>
@@ -43,7 +43,7 @@ const Service = () => {
               </div>
             </div>
 
-            <div className="col-sm-12 col-lg-4 col-xl-4 maxHeight">
+            <div className="col-sm-12 col-lg-4 col-xl-4">
               <div className="card1">
                 <img alt="icon"  className="icon2 mt-3" src={Serviceicon2} />
                 <h3 className="mt-4">Online pharmacy</h3>
@@ -56,7 +56,7 @@ const Service = () => {
               </div>
             </div>
 
-            <div className="col-sm-12 col-lg-4 col-xl-4 maxHeight">
+            <div className="col-sm-12 col-lg-4 col-xl-4 ">
               <div className="card1">
                 <img alt="icon" className="icon3 mt-3" src={Serviceicon3} />
                 <h3 className="mt-4">Consultation</h3>
@@ -70,7 +70,7 @@ const Service = () => {
           </div>
 
           <div className="row sm-query2">
-            <div className="col-sm-12 col-lg-4 col-xl-4 maxHeight">
+            <div className="col-sm-12 col-lg-4 col-xl-4 ">
               <div className="card1">
                 <img alt="icon" className="icon4 mt-3" src={Serviceicon4} />
                 <h3 className="mt-4">Details info</h3>
@@ -82,7 +82,7 @@ const Service = () => {
               </div>
             </div>
 
-            <div className="col-sm-12 col-lg-4 col-xl-4 maxHeight">
+            <div className="col-sm-12 col-lg-4 col-xl-4 ">
               <div className="card1">
                 <img alt="icon" className="icon5 mt-3" src={Serviceicon5} />
                 <h3 className="mt-4">Emergency care</h3>
@@ -94,7 +94,7 @@ const Service = () => {
               </div>
             </div>
 
-            <div className="col-sm-12 col-lg-4 col-xl-4 maxHeight">
+            <div className="col-sm-12 col-lg-4 col-xl-4 ">
               <div className="card1">
                 <img alt="icon" className="icon6 mt-3" src={Serviceicon6} />
                 <h3 className="mt-4">Tracking</h3>
@@ -113,7 +113,7 @@ const Service = () => {
         </div>
       </div>
 
-      <div className="container servPosition">
+      <div className="container maxwidth servPosition">
         <div className="row">
           <div className="col-sm-12 col-lg-6 col-xl-6 ">
             <img alt="icon" className="serviceImg" src={serviceSectionImg} />
@@ -136,7 +136,7 @@ const Service = () => {
         </div>
       </div>
 
-      <div className="container servPosition">
+      <div className="container maxwidth servPosition">
         <div className="row">
           <div className="col-sm-12 col-lg-6 col-xl-6 sm_Query">
             <h2>
@@ -176,7 +176,7 @@ const Service = () => {
               </div>
 
               <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 c mt-4">
-                <h3>Edward Newgate</h3>
+                <h3 className="caroheader">Edward Newgate</h3>
                 <p className="caro_para">Founder Circle</p>
               </div>
             </div>
@@ -198,16 +198,16 @@ const Service = () => {
           <img alt="i"className="lineImage mt-2" src={Line}></img>
         </div>
 
-        <div className="section blop">
+        <div className="section ">
           <div className="container">
             <div className="row sm-query1 ">
               <div className="col-sm-12 col-lg-4 col-xl-4 ">
-                <div className="cardArticle">
+                <div>
                   <img alt="i"className=" articleImge" src={CardImg1} />
                 </div>
                 <div>
                   <div className="articlePadding">
-                    <h3 className="mt-4">
+                    <h3 className=" mt-4">
                       Disease detection, check <br /> up in the laboratory
                     </h3>
                     <p className="para">
@@ -220,7 +220,7 @@ const Service = () => {
               </div>
 
               <div className="col-sm-12 col-lg-4 col-xl-4">
-                <div className="cardArticle">
+                <div>
                   <img alt="i"className=" articleImge" src={CardImg2} />
                 </div>
                 <div className="articlePadding">
@@ -237,7 +237,7 @@ const Service = () => {
               </div>
 
               <div className="col-sm-12 col-lg-4 col-xl-4">
-                <div className="cardArticle">
+                <div>
                   <img alt="i"className=" articleImge" src={CardImg3} />
                 </div>
                 <div className="articlePadding">

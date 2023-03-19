@@ -13,10 +13,6 @@ p {
   color: #7d7987;
 }
 
-/* .blop{
-  background: linear-gradient(175.68deg, #F3F7FF -10.48%, #DEEEFE 92.66%);
-
-} */
 
 .cardCaro{
   text-align: center;
@@ -24,7 +20,7 @@ p {
   border-radius: 24px;
   padding: 32px 100px;
   color: #fff;
-  max-width: 68%;
+  /* max-width: 68%; */
 }
 
 
@@ -35,13 +31,13 @@ p {
   
 }
 
-h3{
+.caroheader{
   text-align: left ;
 }
 
-.container{
+/* .maxwidth{
   max-width: auto;
-}
+} */
 
 
 
@@ -68,9 +64,6 @@ h3{
     max-height: 1000px;
   }
 
-  .maxHeight {
-    max-height: 100vh;
-  }
 
   .serviceImg,
   .sm_Query {
@@ -82,14 +75,14 @@ h3{
     padding: 20px;
   }
 
-  .caro_para, h3{
+  .caro_para, .caroheader{
     text-align: center;
   }
   
   
 }
 
-@media only screen and (min-width: 1080px) and (max-width: 1920px) {
+@media only screen and (min-width: 999px) and (max-width: 1999px) {
   .card1 {
     background-color: #fff;
     box-shadow: 0px 4px 4px 0px hsla(0, 0%, 75%, 0.2),
@@ -100,9 +93,18 @@ h3{
     max-height: 1000px;
   }
 
-  .container{
-    max-width: 70%;
+  .cardCaro{
+    max-width: 68%;
   }
+
+  br{
+    display: none;
+  }
+
+
+  /* .maxwidth{
+    max-width: 70%;
+  } */
 }
 
 
@@ -117,9 +119,10 @@ h3{
     right: 140px;
   }
 
-  .container{
+
+  /* .maxwidth{
     max-width: 80%;
-  }
+  } */
 }
 
 .marginTop {
@@ -152,11 +155,11 @@ h3 {
 }
 
 .service-btn {
-  outline: none;
+  outline: 0;
   box-shadow: none;
   background-color: #fff;
   border-color: #458ff6;
-  border: 2;
+  border: 1;
   color: #458ff6;
   padding: 10px 50px;
   border-radius: 50px;
@@ -177,6 +180,7 @@ h3 {
   border-radius: 12px;
 }
 
+
 .serviceImg {
   width: 90%;
 }
@@ -189,11 +193,6 @@ h3 {
   margin: 6% auto;
 }
 
-.cardArticle {
-  background-color: #fff;
-
-  border-radius: 12px;
-}
 
 .articleImge {
   width: 100%;
